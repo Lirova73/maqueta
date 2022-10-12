@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenguaje HTML</title>
+    <link rel="stylesheet" href="elenguaje2.css">
+    
+</head>
+<body>
+   
+<div id="contenedor">
+    
+    <div id="header">
+        <div id="nav" class="flex-center">
+           <h1>ENCABEZADO NIVEL 1</h1>
+        </div>
+        
+        <div id="nav1" class="flex-center">
+            <table border="0">
+                <thead>
+                    <th><a href="">ENLACE 1</a></th>
+                    <th><a href="">ENLACE 2</a></th>
+                    <th><a href="">ENLACE 3</a></th>
+                    <th><a href="">ENLACE 4</a></th>
+                   
+                </thead>
+            </table>
+        </div>
+    </div>
+        
+    <div id="contenido">
+        
+        <div id="section">
+            <h2>Encabezado nivel 2</h2>
+           <br>
+           <br>
+           <br>
+            Aqui va texto del primer parrafo
+            <br>
+            <br>
+
+            Aqui va texto del segundo parrafo
+            
+            
+        </div>
+        <div id="aside">
+            <h2>Apartado</h2>
+
+            Elige una opción
+            
+            <form name="opcion"   method="get"  action="procesar.php">
+              
+                <p> <label><input type="checkbox" name="opcion1" value="1" checked>Opcion 1</label></p>
+               
+                <p> <label><input type="checkbox" name="opcion2" value="2" checked >Opcion 2</label></p>
+                <p> <label><input type="checkbox" name="opcion3" value="3" checked >Opcion 3</label></p>
+                <br>
+                <button><input type="submit" value="ENVIAR"></button>
+            </form>
+           
+        </div>
+
+    </div>
+
+    <div id="footer" class="flex-center">
+        Sección de informacion de contacto, derechos de autor, étc.
+    </div>
+         
+</div>
+    
+</body>
+</html>

@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#contenedor{
+    background-size: cover;
+    width: 1200px;
+    height: 900px;
+    margin: 0.5cm auto;
+    padding: 0.5cm auto;
+    background: rgb(130, 199, 176);
+}
+#header{
+background: black;
+color: aliceblue;
+height: 40%;
+float: inline-start;
+margin: 0.5cm;
+
+font-family: Arial, Helvetica, sans-serif;
+}
+#header h1{
+    font-size: 50px;
+}
+#header h2{
+    font-size: 30px;
+}
+#nav{
+background:black;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(130, 199, 176);
+width: 100%;
+height: 70%;
+
+}
+
+
+#nav1{
+    background: rgb(199, 231, 220);
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    width: 98%;
+    height: 25%;
+    padding: 3px;
+
+    }
+#nav1 th{
+    font-size: 30px;
+}
+#nav1 table{
+    width: 100%;
+}
+#nav1 a{
+    color: black;
+}
+#contenido{
+
+background: aliceblue;
+height: 45%;
+margin: 0.5cm;
+
+}
+
+#contenido h2{
+    font-size: 35px;
+    margin: 40px;
+    position: center;
+}
+
+#section{
+    width: 70%;
+    background: rgb(38, 57, 167);
+    height: 90%;
+    float: left;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#aside{
+    background: palevioletred;
+    width: 25%;
+    height: 90%;
+    margin-top: 10px;
+    float: right;
+    margin-right: 10px;
+    padding: 10px;
+    font:20px bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#aside form{
+    margin: 40px;
+    
+}
+#aside button{
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+
+}
+#aside input{
+    color:black;
+    font-size: 20px;
+}
+
+#footer{
+    background-color: yellow;
+
+    height: 8%;
+    margin: 0.5cm;
+    padding: 5px;
+    
+    font-size: medium;
+font-family: Arial, Helvetica, sans-serif;
+color:black;
+
+}
+
+li{
+    color: aqua;
+}
+    
+
+.flex-center{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
